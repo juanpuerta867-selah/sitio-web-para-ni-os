@@ -1,0 +1,15 @@
+.info {
+    text-align: center;
+    padding: 80px;
+    background-color: #eeeeee;
+}
+
+.info h2 {
+    margin-bottom: 20px;
+}
+
+
+.info p {
+    max-width: 700px;
+    margin: auto;
+}

@@ -1,0 +1,32 @@
+.producto {
+    background-color: #a8d0d0;
+    text-align: center;
+    padding: 60px;  
+}
+
+.cards {
+    display: flex;
+    margin-top: 40px;
+    gap: 130px;
+    border: 20px;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img{
+    width: 140px;
+}
+
+.card p {
+    margin: 10px 0 ;
+}
+
+.card button {
+    background-color: #f4b45f;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+}

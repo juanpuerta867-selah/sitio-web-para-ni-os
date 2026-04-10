@@ -1,0 +1,38 @@
+.rules {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.rules-text p {
+    margin-top: 20px;
+}
+
+.rules-text {
+    width: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.rules-img {
+    position: relative;
+    max-width: 100%;
+}
+
+.rules-img img:first-child {
+    position: absolute;
+    width: 1000px;
+    right: 100px;
+    top: 5px;
+    z-index: 1;
+}
+
+.rules-img img:last-child {
+    position: relative;
+    right: 80px;
+    width: 350px;
+    z-index: 2;
+}
