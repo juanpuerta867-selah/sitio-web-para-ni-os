@@ -1,0 +1,115 @@
+
+@media (max-width: 768px) {
+
+  * {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+nav {
+    width: 100%;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 14px;
+    max-width: 90%;
+}
+
+
+.hero button,
+.btn {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+
+.container,
+.contenedor {
+    width: 100%;
+    padding: 15px ;
+}
+
+
+.cards,
+.contenedor-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 320px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+section {
+    padding: 25px 15px;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.info {
+    padding: 20px;
+}
+
+.info p {
+    max-width: 90%;
+    font-size: 14px;
+}
+
+.info img {
+    width: 70%;
+    max-width: 200px;
+}
+}
